@@ -1,0 +1,77 @@
+import React from "react";
+import "./hero.css";
+import HeroImage from "./assets/hero.png";
+
+const Hero = () => {
+  return (
+    <>
+      <css-doodle use="var(--rule)"></css-doodle>
+      <div className="hero">
+        <img class="hero-img" alt="" src={HeroImage} />
+        <div className="hero-head">
+          <p className="hero-title">
+            Welcome to,
+            <br />
+            IEEE Student Branch NITC
+          </p>
+        </div>
+        <div className="hero-content">
+          <p>
+            IEEE is the world's largest technical professional association with
+            more than 350,000 members
+            <br />
+            in 150 countries. It is a non-profit organization that is dedicated
+            to advancing the theory
+            <br />
+            and application of electrical and electronics engineering and
+            computer science.
+          </p>
+        </div>
+        <div class="buttons">
+          {/* <div class="button1">
+              <div class="link">
+                <a
+                  class="login"
+                  href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+                  target="_blank"
+                >
+                  Join IEEE
+                </a>
+              </div>
+            </div> */}
+          <button class="button-64" role="button">
+            <span class="text">
+              <a
+                class="login"
+                href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+                target="_blank"
+              >
+                Join IEEE
+              </a>
+            </span>
+          </button>
+          <button class="button-64" role="button">
+            <span class="text">
+              <a
+                class="login"
+                href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+                target="_blank"
+              >
+                Learn More
+              </a>
+            </span>
+          </button>
+          {/* <div class="button2">
+              <div class="link">
+                <a class="login" href="https://www.ieee.org/" target="_blank">
+                  Learn More
+                </a>
+              </div>
+            </div> */}
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Hero;

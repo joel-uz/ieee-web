@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24,24,24);
+  }
+  
+  .hero-img {
+    width: 100%;
+    max-width: fit-content;
+  }
+  .hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(20px + 4vw); /* Adjust the font size as desired */
+    color: white;
+    text-align: center;
+  }
+  .hero-content {
+    font-family: 'Roboto', sans-serif;
+    margin: 1rem;
+    font-size: calc(16px + 0.6vw);
+    color: white;;
+    text-align: center;
+  }
+  .hero
+  .text-container {
+    background-color: black;
+    padding: 20px;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .buttons {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  .buttons > button {
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+
+  .link a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .join-us {
+    font-size: 20px; /* Adjust the font size as desired */
+    color: white;
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  .btn-explorenow,
+  .btn-events {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+  }
+  
+  .line-break {
+    display: none;
+  }
+  
+.button-64 {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+  outline: 0;
+}
+
+.button-64 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.button-64:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
