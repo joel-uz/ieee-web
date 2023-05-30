@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const navItems = [
     { text: "Home" },
-    { text: "Societies" },
+    { text: "Chapters" },
     { text: "Execom" },
     { text: "Contact Us" },
     { text: "Join IEEE" },
