@@ -70,7 +70,7 @@
   box-sizing: border-box;
   color: #000000;
   display: flex;
-  font-family: Phantomsans, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
@@ -102,6 +102,12 @@
 .button-64:hover span {
   background: none;
 }
+
+.login{
+  font-size: 100%;
+  color: #FFFFFF;
+}
+
 
 @media (max-width: 768px) {
   .button-64 {

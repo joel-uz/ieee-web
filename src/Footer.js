@@ -10,7 +10,7 @@ export default function Footer() {
                 <div className="container-1">
                     <div className="footer-main">
                         <h1 style={{ color: "#016ca1" }}>IEEE SB NITC</h1>
-                        <img src="./Logo.svg" alt="IEEE SB NITC LOGO" className="logo" />
+                        <img src="./Logo.svg" alt="IEEE SB NITC LOGO" className="logo-ieee" />
                         <p className="thankstext">Thank you for visiting our website!
                             "Prepare to embark on a captivating journey through the corridors of innovation.We warmly appreciates your visit and support</p>
 

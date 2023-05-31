@@ -36,7 +36,7 @@ const Hero = () => {
           <button class="button-64">
             <span class="text">
               <a
-                class="login"
+                className="login"
                 href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
               >
                 Join IEEE
@@ -46,7 +46,7 @@ const Hero = () => {
           <button class="button-64">
             <span class="text">
               <a
-                class="login"
+                className="login"
                 href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
               >
                 Learn More
