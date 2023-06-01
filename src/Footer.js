@@ -6,18 +6,19 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function Footer() {
     const year = new Date().getFullYear();
     return (
+           <>
+           <hr className="ruler" />
             <div className="footer">
                 <div className="container-1">
                     <div className="footer-main">
-                        <h1 style={{ color: "#016ca1" }}>IEEE SB NITC</h1>
-                        <img src="./Logo.svg" alt="IEEE SB NITC LOGO" className="logo-ieee" />
+                        <h1 style={{ color: 'blue' }} className="Footer-name">IEEE SB NITC</h1>
                         <p className="thankstext">Thank you for visiting our website!
-                            "Prepare to embark on a captivating journey through the corridors of innovation.We warmly appreciates your visit and support</p>
+                            "Prepare to embark on a captivating journey through the corridors of innovation." We warmly appreciates your visit and support</p>
 
                         <div className="social-media">
-                            <a href="https://www.facebook.com/IeeeNitc/"  ><FacebookIcon fontSize="large" style={{ color: " rgb(1, 108, 169)" }} /> </a>
-                            <a href="https://www.instagram.com/ieee_nitc/?hl=en" > <InstagramIcon fontSize="large" style={{ color: " rgb(1, 108, 169)" }} /> </a>
-                            <a href="https://in.linkedin.com/company/ieee-sb-nitc" > <LinkedInIcon fontSize="large" style={{ color: " rgb(1, 108, 169)" }} /> </a>
+                            <a href="https://www.facebook.com/IeeeNitc/"  ><FacebookIcon fontSize="large" className="icons" /> </a>
+                            <a href="https://www.instagram.com/ieee_nitc/?hl=en" > <InstagramIcon fontSize="large" className="icons" /> </a>
+                            <a href="https://in.linkedin.com/company/ieee-sb-nitc" > <LinkedInIcon fontSize="large" className="icons" /> </a>
                         </div>
 
                     </div>
@@ -79,5 +80,8 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+           
+           </>
     )
 }
+

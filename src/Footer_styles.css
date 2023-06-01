@@ -5,8 +5,12 @@
     background-color: #FFFFFF;
 }
 
+.ruler{
+    border: 1px solid #3DB2FF;
+    display: block;
+    width: 95%;
+}
 .footer {
-    margin-top: 10%;
     background-color: #FFFFFF;
     box-sizing: border-box;
     border: none;
@@ -16,9 +20,16 @@
     padding: 10px 30px 2px;
 }
 
+.Footer-name{
+  background: -webkit-linear-gradient(36deg,#a940fe, #06d3ec);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .thankstext{
     font-family: Poppins;
-    font-size: 3rem;
+    font-size: 3.4rem;
     font-weight: 500;
 }
 
@@ -38,8 +49,10 @@
 }
 
 .footer-main p {
-    font-size: 12px;
+    font-size: 0.9rem;
     text-align: justify;
+    font-family: Poppins;
+    padding: 5px;
 
 }
 
@@ -100,6 +113,14 @@
     gap: 30px;
     padding: 0;
     margin-bottom: -15px;
+}
+.icons{
+    color: grey;
+    transition: all 0.25s ease-in-out;
+}
+
+.icons:hover{
+    color: #3DB2FF;
 }
 
 @media screen and (max-width:576px) {

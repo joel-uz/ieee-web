@@ -12,13 +12,13 @@ a {
 }
 
 .nav-items a:hover{
-  color: #A459D1;
+  color: #8041f8;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding:  2rem;
+  padding: 10px;
   height: auto;
   background-color: white;
   width: 88%;
@@ -80,13 +80,16 @@ a {
 
   .nav-items-mobile {
     position: absolute;
-    display: block;
+    display: flex;
+    flex-direction: column;
     list-style: none;
-    left: 0;
+    right: 0;
     top: 95px;
     transition: all 0.5s ease-out;
-    width: 100%;
-    background-color: #161616;
+    width: 35%;
+    background-color: white;
+    border: 2px solid #3DB2FF;
+    animation: fadeIn 0.3s ease-in-out;
   }
 
   .nav-items-mobile li {
@@ -96,12 +99,12 @@ a {
   .nav-items-mobile li a {
     text-align: center;
     width: 100%;
-    padding: 32px;
+    padding: 20px;
     transition: all 0.5s ease;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-    color: white;
+    color: black;
   }
 
   .nav-items {
@@ -132,4 +135,9 @@ a {
     right: 25px;
     transition: all 1s ease-in-out;
   }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
