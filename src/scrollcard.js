@@ -1,5 +1,5 @@
 import { useState,useEffect,useRef } from "react";
-import { motion, useScroll } from "framer-motion";
+import { motion } from "framer-motion";
 import image1 from './assets/scrollimages/1.jpg';
 import image2 from './assets/scrollimages/2.jpg';
 import image3 from './assets/scrollimages/3.jpg';
@@ -13,22 +13,20 @@ const FrameScroll = () => {
     const images = [image1,image2,image3,image4,image5,image6];
 
     const [width, setwidth] = useState(0);
-    const carousal = useRef();
+    const carousal = useRef(null);
 
     useEffect(() =>{
-
         setwidth(carousal.current.scrollWidth - carousal.current.offsetWidth);
     },[]);
-
-    const { scrollXProgress } = useScroll({ container: carousal });
 
     return (
         <div>
             <div className="text-area">
                 <h1 className="head-gallery">ARCHIVES</h1>
             </div>
-            <motion.div ref={carousal} className="carousal" whileTap={{cursor:'grabbing'}}>
-                <motion.div drag='x' dragConstraints={{right:0, left:-width}} className="inner" >
+            <motion.div ref={carousal} className="carousal" whileTap={{cursor:'grabbing'}} initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}>
+                <motion.div drag='x' dragConstraints={{right:0, left:-width}} className="inner">
                     {images.map((each) => {
                         return(
                         <motion.div className="item">

@@ -13,7 +13,8 @@ export default function Footer() {
                     <div className="footer-main">
                         <h1 style={{ color: 'blue' }} className="Footer-name">IEEE SB NITC</h1>
                         <p className="thankstext">Thank you for visiting our website!
-                            "Prepare to embark on a captivating journey through the corridors of innovation." We warmly appreciates your visit and support</p>
+                            "Prepare to embark on a captivating journey through the corridors of innovation." 
+                            We warmly appreciate your visit and support.</p>
 
                         <div className="social-media">
                             <a href="https://www.facebook.com/IeeeNitc/"  ><FacebookIcon fontSize="large" className="icons" /> </a>

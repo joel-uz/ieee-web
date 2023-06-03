@@ -24,6 +24,7 @@
     width: 30%;
     background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     padding: 3px;
+    box-shadow: 10px 10px lightblue;
 }
 
 .center{
@@ -31,12 +32,14 @@
     width: 30%;
     background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     padding: 3px;
+    box-shadow: 10px 10px lightblue;
 }
 .right{
     float: right;
     width: 30%;
     background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     padding: 3px;
+    box-shadow: 10px 10px lightblue;
 }
 
 .subhead{
@@ -57,7 +60,7 @@
 .text{
     font-family: "Open Sans";
     font-size: 100%;
-    text-align: justify;
+    text-align: center;
     padding: 7px;
 }
 

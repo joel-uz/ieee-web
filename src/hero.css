@@ -8,18 +8,28 @@
     background-color: #FFFFFF;
   }
 
+.hero-head{
+  background-image: url("./assets/back-main.jpg");
+  width: 100%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
   .hero-title {
     font-family: 'Open Sans', sans-serif;
     font-size: calc(20px + 4vw); /* Adjust the font size as desired */
     color: black;
     text-align: center;
+    margin-top: 30%;
+    z-index: 1000;
   }
+
   .hero-content {
     font-family: 'Roboto', sans-serif;
     margin: 1rem;
     font-size: calc(16px + 0.6vw);
     color: black;
-    text-align: justify;
+    text-align: center;
     width: 70%;
   }
   .hero
