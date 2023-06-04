@@ -8,8 +8,6 @@ const Hero = () => {
       <div className="hero">
         <div className="hero-head">
           <p className="hero-title">
-            Welcome To
-            <br />
             IEEE Student Branch NITC
           </p>
         </div>

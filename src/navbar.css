@@ -83,6 +83,9 @@ a {
 .active {
   color: #a741fe;
 }
+.navbar .non-active{
+  color: azure;
+}
 
 .mobile-menu-icon {
   display: none;
@@ -106,6 +109,13 @@ a {
     justify-content: space-evenly;
     border-radius: 0%;
     background-color: white;
+  }
+  .navbar .icon-color{
+    color: white;
+  }
+  
+  .navbar-activate .icon-color{
+    color: black;
   }
 
   .logo-resizer {
@@ -131,7 +141,17 @@ a {
     display: flex;
   }
 
-  .nav-items-mobile li a {
+  .navbar .nav-items-mobile li a {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+  }
+  .navbar-activate .nav-items-mobile li a {
     text-align: center;
     width: 100%;
     padding: 20px;
@@ -163,7 +183,7 @@ a {
     display: block;
     position: relative;
     font-size: 30px;
-    color: black;
+    color: white;
     background-color: transparent;
     border: none;
     outline: none;

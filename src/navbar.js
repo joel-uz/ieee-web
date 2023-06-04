@@ -48,7 +48,7 @@ const Navbar = () => {
             <li key={index}>
               <a
                 href="/"
-                className={index === activeItem ? "active" : ""}
+                className={index === activeItem ? "active" : "non-active"}
                 onClick={() => handleItemClick(index)}
               >
                 {item.text}
@@ -58,9 +58,9 @@ const Navbar = () => {
         </div>
         <button className="mobile-menu-icon" onClick={handleToggleMenu}>
           {isMobile ? (
-            <FaTimes size={20} style={{ color: "black" }} />
+            <FaTimes size={20} className="icon-color" />
           ) : (
-            <FaBars size={20} style={{ color: "black" }} />
+            <FaBars size={20} className="icon-color" />
           )}
         </button>
       </div>
