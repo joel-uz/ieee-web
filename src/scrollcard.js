@@ -1,12 +1,13 @@
 import { useState,useEffect,useRef } from "react";
 import { motion } from "framer-motion";
-import image1 from './assets/scrollimages/1.jpg';
-import image2 from './assets/scrollimages/2.jpg';
-import image3 from './assets/scrollimages/3.jpg';
+import { Link} from 'react-router-dom';
+import image1 from './assets/scrollimages/1a.jpg';
+import image2 from './assets/scrollimages/2a.jpg';
+import image3 from './assets/scrollimages/3a.jpg';
 import image4 from './assets/scrollimages/4.jpg';
 import image5 from './assets/scrollimages/5.jpg';
 import image6 from './assets/scrollimages/6.jpg';
-import './scrollcard.css'
+import './scrollcard.css';
 
 const FrameScroll = () => {
 
@@ -17,7 +18,7 @@ const FrameScroll = () => {
 
     useEffect(() =>{
         setwidth(carousal.current.scrollWidth - carousal.current.offsetWidth);
-    },[]);
+    }, []);
 
     return (
         <div>
@@ -36,9 +37,11 @@ const FrameScroll = () => {
                     })}
                 </motion.div>
             </motion.div>
-            <button className="button-64">
-                <span className="button-64-span">View More</span>
-            </button>
+            <Link to="/gallery">
+                <button className="button-64">
+                    <span className="button-64-span" >View More</span>
+                </button>
+            </Link>
         </div>
     )
 }
