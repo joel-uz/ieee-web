@@ -47,7 +47,7 @@ const Navbar = () => {
           {navItems.map((item, index) => (
             <li key={index}>
               <a
-                href="/"
+                href={'/' + item.text}
                 className={index === activeItem ? "active" : "non-active"}
                 onClick={() => handleItemClick(index)}
               >

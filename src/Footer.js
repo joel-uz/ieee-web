@@ -2,6 +2,7 @@ import "./Footer_styles.css";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { HashLink } from "react-router-hash-link";
 
 export default function Footer() {
     const year = new Date().getFullYear();
@@ -48,18 +49,19 @@ export default function Footer() {
                     <div className="col-1">
                         <ul className="footer-links">
                             <li><h2>SOCIETIES</h2></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/">IAS</a> </li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/">EDS</a></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/">CS</a></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/">CAS</a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#ias'>IAS</HashLink></a> </li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#eds'>EDS</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#cs'>CS</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#cass'>CASS</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#pes'>PES</HashLink></a></li>
                         </ul>
 
                     </div>
                     <div className="col-1">
                         <ul className="footer-links">
                             <li><h2>AFFINITY AND SPECIAL INTEREST GROUP</h2></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/">WIE</a> </li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/">SIGHT</a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#wie'>WIE</HashLink></a> </li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#sight'>SIGHT</HashLink></a></li>
                         </ul>
 
                     </div>
