@@ -12,11 +12,11 @@ function App() {
         <Routes>
           <Route index element={ 
             <Home />} />
-          <Route path="/Home" element={ 
+          <Route exact path="/home" element={ 
             <Home />} />
           <Route path="/gallery" element={ 
             <Gallery />} />
-          <Route path="/Chapters" element={ 
+          <Route path="/chapters" element={ 
             <Chapters />} />
         </Routes>
       </BrowserRouter>

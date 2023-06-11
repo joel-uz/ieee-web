@@ -49,19 +49,19 @@ export default function Footer() {
                     <div className="col-1">
                         <ul className="footer-links">
                             <li><h2>SOCIETIES</h2></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#ias'>IAS</HashLink></a> </li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#eds'>EDS</HashLink></a></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#cs'>CS</HashLink></a></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#cass'>CASS</HashLink></a></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#pes'>PES</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#ias'>IAS</HashLink></a> </li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#eds'>EDS</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#cs'>CS</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#cass'>CASS</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#pes'>PES</HashLink></a></li>
                         </ul>
 
                     </div>
                     <div className="col-1">
                         <ul className="footer-links">
                             <li><h2>AFFINITY AND SPECIAL INTEREST GROUP</h2></li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#wie'>WIE</HashLink></a> </li>
-                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/Chapters#sight'>SIGHT</HashLink></a></li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#wie'>WIE</HashLink></a> </li>
+                            <li><a href="https://www.facebook.com/IeeeNitc/"><HashLink to='/chapters#sight'>SIGHT</HashLink></a></li>
                         </ul>
 
                     </div>
