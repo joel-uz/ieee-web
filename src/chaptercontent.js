@@ -22,7 +22,7 @@ const ChaptersPage = () => {
         <div className="main-chapter">
 
             <div className='top-chapter'>
-                <p className='page-text'>Chapters</p>
+                <p className='page-text'>CHAPTERS</p>
             </div>
 
             <div className='chapter-contents'>

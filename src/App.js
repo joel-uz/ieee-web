@@ -3,10 +3,15 @@ import Home from './home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Gallery from "./pages/gallery"
 import Chapters from './pages/chapters';
-
+import { ActiveContext } from './activecontext';
+import { useState } from 'react';
 
 function App() {
+
+  const [activeItem, setActiveItem] = useState(0);
+
   return (
+    <ActiveContext.Provider value={{activeItem, setActiveItem}}>
     <div className="App">
       <BrowserRouter>
         <Routes>
@@ -20,7 +25,8 @@ function App() {
             <Chapters />} />
         </Routes>
       </BrowserRouter>
-    </div>
+      </div>
+      </ActiveContext.Provider>
   );
 }
 
