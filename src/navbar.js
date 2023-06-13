@@ -6,17 +6,20 @@ import { Link } from "react-router-dom";
 import { ActiveContext } from "./activecontext";
 
 const Navbar = () => {
+
   const [isMobile, setIsMobile] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const {activeItem, setActiveItem} = useContext(ActiveContext)
 
   const changeback = () => {
+
     if (window.scrollY >= 100) {
       setNavbar(true)
     } 
     else {
       setNavbar(false)
     }
+    
   }
 
   window.addEventListener("scroll", changeback);
